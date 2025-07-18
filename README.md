@@ -1,10 +1,7 @@
-# RAG-PDF-Chatbot
 # 📄 RAG PDF Chatbot using Gemini & Streamlit
 
 This project is a **PDF Question-Answering Chatbot** powered by **Retrieval-Augmented Generation (RAG)**, **FAISS**, **HuggingFace Embeddings**, and **Google Gemini API**. Upload any PDF and ask natural-language questions — the bot retrieves relevant sections from the PDF and gives you intelligent, contextual answers.
 
-![demo](<img width="1250" height="859" alt="image" src="https://github.com/user-attachments/assets/0ee9279f-96d5-4164-8112-19e745f081f0" />
-) <!-- (Optional: Add demo GIF or screenshot) -->
 
 ---
 
@@ -29,6 +26,7 @@ This project is a **PDF Question-Answering Chatbot** powered by **Retrieval-Augm
 ---
 
 ## 📁 Folder Structure
+```
 rag_pdf_chatbot/
 ├── main.py # Streamlit frontend app
 ├── rag_utils.py # All backend logic (RAG flow)
@@ -36,8 +34,14 @@ rag_pdf_chatbot/
 ├── requirements.txt # Python dependencies
 └── README.md
 
+```
+
 
 ---
+## 📷 ScreenShot
+
+<img src="https://github.com/user-attachments/assets/3f8375a8-c8aa-402e-9b34-4a08a394dba9" alt="Screenshot" width="500"/>
+
 
 ## 🛠️ Installation
 
@@ -45,3 +49,17 @@ rag_pdf_chatbot/
 ```bash
 git clone https://github.com/your-username/rag-pdf-chatbot.git
 cd rag_pdf_chatbot
+```
+### 2. Install Dependencies
+ ```
+pip install -r requirements.txt
+```
+### 3. Set Up Environment Variable
+ ```
+GEMINI_API_KEY=your_google_generative_ai_key_here
+ ```
+
+### 4. Run the App
+```
+python -m streamlit run main.py
+```
