@@ -1,6 +1,6 @@
 # 📄 RAG PDF Chatbot using Gemini & Streamlit
 
-This project is a **PDF Question-Answering Chatbot** powered by **Retrieval-Augmented Generation (RAG)**, **FAISS**, **HuggingFace Embeddings**, and **Google Gemini API**. Upload any PDF and ask natural-language questions — the bot retrieves relevant sections from the PDF and gives you intelligent, contextual answers.
+This is a **PDF Question-Answering Chatbot** powered by **Retrieval-Augmented Generation (RAG)**, **FAISS**, **HuggingFace Embeddings**, and **Google Gemini API**. Upload any PDF and ask natural-language questions — the bot retrieves relevant sections from the PDF and gives you intelligent, contextual answers.
 
 
 ---
