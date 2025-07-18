@@ -1,7 +1,0 @@
-streamlit
-PyMuPDF
-faiss-cpu
-langchain
-langchain-google-genai
-python-dotenv
-google-generativeai>=0.3.2
